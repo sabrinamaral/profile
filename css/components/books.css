@@ -1,0 +1,30 @@
+.books-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.book-container {
+  width: 180px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.book-container img {
+  width: 60px;
+}
+
+.book-container h6 {
+  margin: 0 4px;
+  text-transform: uppercase;
+}
+
+.current-books {
+  padding-bottom: 30px;
+}

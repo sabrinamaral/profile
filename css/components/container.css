@@ -1,0 +1,49 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.container-info {
+  margin: 30px;
+}
+
+.container-info h1, .container-info h2, .container-info p {
+  padding: 12px;
+}
+
+.go-back {
+  padding-bottom: 54px;
+  text-transform: uppercase;
+}
+
+.go-back a {
+  color: #4A4A4A;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.go-back a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 960px) {
+  .container{
+    width: 600px;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container{
+    width: 500px;
+    padding: 32px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container{
+    width: 400px;
+    padding: 18px;
+  }
+}

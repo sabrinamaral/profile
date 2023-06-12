@@ -1,0 +1,9 @@
+.avatar-lg {
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid #cce3de;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+}
